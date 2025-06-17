@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/seek0001/JenkinsSpringBoot.git', branch: 'main'
+                git url: 'https://github.com/seek0001/JenkinsSpringBoot.git', branch: 'main'
             }
        }
 
